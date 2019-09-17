@@ -1,0 +1,63 @@
+@media screen and (min-width: 1228px){
+    #primary-menu li a {
+        padding: 0 .5em;
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    #primary-menu li a {
+        padding: 0 .5em;
+        font-size: 12px;
+    }
+}
+
+#primary-menu li a {
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 56px;
+    letter-spacing: 0.15px;
+}
+
+.main-navigation a {
+    display: block;
+    text-decoration: none;
+    color: darkred;
+}
+a {
+    color: #ffcf04;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+li {
+    text-align: -webkit-match-parent;
+}
+#primary-menu {
+    text-align: center;
+    display: inline-block;
+}
+.main-navigation ul {
+    /*display: none;*/
+    /* display to be modified when onclick event is triggered */
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
