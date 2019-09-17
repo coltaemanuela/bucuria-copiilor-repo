@@ -1,0 +1,2 @@
+# bucuria-copiilor
+static website
