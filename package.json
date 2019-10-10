@@ -1,0 +1,32 @@
+{
+  "name": "personal_website",
+  "version": "1.0.0",
+  "description": "Personal website -by Emanuela Colta",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coltaemanuela/personal-website.git"
+  },
+  "keywords": [
+    "personal",
+    "website"
+  ],
+  "author": "Emanuela Felicia Colta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coltaemanuela/personal-website/issues"
+  },
+  "homepage": "https://github.com/coltaemanuela/personal-website#readme",
+  "dependencies": {
+    "@sendgrid/mail": "^6.4.0",
+    "body-parser": "^1.19.0",
+    "ejs": "^2.5.7",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.2",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,23 @@
+{
+    "en": {
+        "title": "",
+        "banner_text": "",
+        "suport_needed_title":"The support we need",
+        "suport_needed_text": "",
+        "financial_donations":"FINANCIAL DONATIONS",
+        "financial_donations_text":"",
+        "goods_donations_title":"DONATIONS OF GOODS",
+        "goods_donations_text":"food, clothing, footwear, medicine, supplies, sweets, personal hygiene products, etc."        
+    },
+    "ro": {
+        "title": "",
+        "banner_text": "Fundatia Bucuria Copiilor contribuie la reducerea progresiva a numarului de persoane defavorizate din judetul Bihor, a abandonului scolar si familial al copiilor pana la reintegrarea completa si stabila a acestora in societate",
+        "suport_needed_title":"SUSTINEREA SI IMPLICAREA DE CARE AVEM NEVOIE",
+        "suport_needed_text": "Asigurarea unei mese calde saptamanale pentru cei peste 80 de copii din cadrul proiectului Centrul de zi Bucuria copiilor",
+        "financial_donations_title":"DONATII FINANCIARE",
+        "financial_donations_text":"",
+        "goods_donations_title":"DONATII IN BUNURI",
+        "goods_donations_text":"Mancare, imbracaminte, incaltaminte, medicamente, dulciuri, produse de ingrijire personala"
+
+    }
+}
