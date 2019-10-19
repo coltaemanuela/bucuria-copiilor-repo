@@ -22,9 +22,12 @@
   "homepage": "https://github.com/coltaemanuela/personal-website#readme",
   "dependencies": {
     "@sendgrid/mail": "^6.4.0",
+    "bloggify": "^1.4.6",
     "body-parser": "^1.19.0",
     "ejs": "^2.5.7",
     "express": "^4.17.1",
+    "firebase": "^7.2.0",
+    "firebase-tools": "^7.5.0",
     "nodemon": "^1.19.2",
     "path": "^0.12.7"
   },

@@ -50,15 +50,21 @@ p {
     margin-bottom: -100px;
 }
 
-.banner-text {
-    margin-top: -100px;
-    position: relative;
+.header-text {
     color: #fff;
-    font-size: 20px;
+    margin-top: -120px;
+    position: relative;
     width: 70%;
     margin: 0 auto;
+}
+
+.header-text h3 {
+    color: #fff;
+    font-size: 28px;
     letter-spacing: 2px;
     line-height: 32px;
+    padding-bottom: 15px;
+    word-spacing: 30px;
 }
 
 .introduction h4 {
@@ -136,7 +142,6 @@ p {
 }
 
 .work-image {
-    /* background-color: red; */
     background-image: url('../images/camp.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -148,7 +153,6 @@ p {
 
 .about {
     color: #fff;
-    /* text-align: center; */
     margin-top: 50px;
     /* font-family: 'Helvetica';  */
     position: relative;
@@ -156,6 +160,17 @@ p {
 
 .about h3 {
     text-align: center;
+}
+.about-title{
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.about-content{
+    width: 70%;
+    margin: 0 auto;
+    text-align: left;
+    line-height: 25px;
+    word-spacing: 4px;
 }
 
 .about:after,
@@ -182,6 +197,7 @@ p {
 .about-title h3 {
     font-weight: 900;
     font-size: 30px;
+    text-align: center;
     /* font-family: 'Helvetica';  */
     /* text-shadow: 0px 7px 6px rgba(62, 62, 70, 0.13); */
 }
@@ -235,36 +251,6 @@ button {
     background-image: url('../images/btn-facebook-focussed.png');
 }
 
-#linkedin {
-    display: inline-block;
-    width: 10%;
-    float: left;
-    height: 20px;
-    background-size: contain;
-    background-image: url('../images/linkedin.svg');
-    background-repeat: no-repeat;
-}
-
-#linkedin:hover {
-    background-image: url('../images/linkedin-focussed.png');
-    background-size: contain;
-}
-
-#twitter {
-    display: inline-block;
-    width: 10%;
-    float: left;
-    height: 20px;
-    background-size: contain;
-    background-image: url('../images/twitter.jpg');
-    background-repeat: no-repeat;
-}
-
-#twitter:hover {
-    background-image: url('../images/twitter-focussed.png');
-    background-size: contain;
-}
-
 #google {
     display: inline-block;
     width: 10%;
@@ -285,6 +271,18 @@ button {
     height: 200px;
     background-color: #ffffff;
     color: darkgray;
+    text-align: left;
+}
+
+.contact span{
+    padding-right: 7px;
+}
+
+.contact-submit {
+    width: 55%;
+    background-image: linear-gradient(to right, darkseagreen, #9ca0ac);
+    font-size: 16px;
+    margin: 0 auto;
 }
 
 .newsletter-section {
@@ -316,33 +314,6 @@ footer {
 footer h3 {
     color: darkseagreen;
     font-weight: 800;
-}
-
-.carousel-inner .custom-carousel {
-    position: relative;
-    width: 45.0%;
-    margin: 0 auto;
-    overflow: hidden;
-}
-
-#arr-right {
-    height: 80px;
-    width: auto;
-    margin: 0 auto;
-    top: 50%;
-    position: absolute;
-}
-
-/* #arr-right:hover{
-      background-image: url('../../../_public/resources/right_arrow_hover.png');
-  } */
-
-.carousel-caption .caption-customize {
-    position: initial;
-}
-
-.carousel-indicators li {
-    background-color: gray;
 }
 
 .caption-text {
@@ -417,40 +388,4 @@ section:nth-of-type(5) {
 
 .support-quote {
     padding-bottom: 70px;
-}
-.contact-information-row{
-    border: 3px solid darkseagreen;
-    background-color: darkseagreen;
-    width: 93%;
-    margin: 0 auto;
-    color: #fff;
-}
-
-.contact-information {
-    list-style-type: none
-}
-.stay-in-touch-image{
-    background-image: url('../images/stay-in-touch_ro.png');
-    background-repeat: no-repeat;
-    height: 250px;
-    width: 100%;
-    background-position-x: 50%;
-}
-.stay-in-touch h3{
-    font-family: 'Helvetica';
-    font-size:33px;
-    font-weight: 800;
-    text-align: center;
-}
-
-.stay-in-touch p{
-    font-family: 'Helvetica';
-    font-size:20px;
-    text-align: center;
-    width: 50%;
-    margin: 0 auto;
-}
-.stay-in-touch button{
-    margin: 0 auto;
-    height: 30px;
 }

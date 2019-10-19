@@ -1,0 +1,45 @@
+.contact-information-row {
+    width: 100%;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.contact-information {
+    list-style-type: none
+}
+.contact-item{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.contact-item span{
+    display: inline-block;
+    padding-right: 20px;
+
+}
+.stay-in-touch-image {
+    background-image: url('../images/stay-in-touch_ro.png');
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 100%;
+    background-position-x: 50%;
+}
+
+.stay-in-touch h3 {
+    font-family: 'Helvetica';
+    font-size: 33px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.stay-in-touch p {
+    font-family: 'Helvetica';
+    font-size: 20px;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.stay-in-touch button {
+    margin: 0 auto;
+    height: 30px;
+}
