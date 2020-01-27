@@ -2,20 +2,35 @@
     width: 100%;
     margin: 0 auto;
     color: #fff;
+    margin-top: 50px;
 }
 
 .contact-information {
-    list-style-type: none
+    list-style-type: none;
+    display: inline-block;
+    width: 40%;
 }
-.contact-item{
+
+.contact-form {
+    width: 55%;
+    display: inline-block;
+}
+
+.contact-item {
     width: 100%;
     margin-bottom: 20px;
 }
-.contact-item span{
+
+.contact-item span {
     display: inline-block;
     padding-right: 20px;
-
 }
+
+.contact-item span img {
+    width: 20px;
+    height: 20px;
+}
+
 .stay-in-touch-image {
     background-image: url('../images/stay-in-touch_ro.png');
     background-repeat: no-repeat;
@@ -42,4 +57,27 @@
 .stay-in-touch button {
     margin: 0 auto;
     height: 30px;
+}
+
+.stripe {
+    height: 40px;
+    width: 100%;
+    background-color: darkseagreen;
+}
+
+input[type=text],
+textarea {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #282938;
+    width: 100%;
+    line-height: 2.5;
+    outline: none;
+    font-size: 16px;
+    font-style: oblique;
+    margin-bottom: 20px;
+}
+
+.contact-submit {
+    float: left;
 }

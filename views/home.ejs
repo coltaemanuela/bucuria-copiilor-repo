@@ -23,217 +23,240 @@
 </head>
 
 <body>
-  <div class="navbar-logo">
-    <div class="logo"></div>
-  </div>
-  <div class="header">
-    <!-- <section> -->
-    <img srcset="/public/images/Header-Image-Placeholder.jpg" width="100%">
-    <!-- <img srcset="/public/images/camp.jpg" width="100%" height="50%"> -->
-    <div class="header-text">
-      <h1> Implicare. Daruire. Speranta</h1>
+
+  <!-- <body class="home-body"> -->
+  <%- include navbar.ejs %>
+
+    <div class="header">
+      <div class="header-text">
+        <!-- <h1> Implicare. Daruire. Speranta</h1> -->
+      </div>
+
+      <!-- </section>   -->
     </div>
 
-    <!-- </section>   -->
-  </div>
-
-  <article class="hire introduction">
-    <div>
+    <article class="hire introduction">
       <div>
-        <div class="about-title">
-          <h4> Obiectivele Fundatiei Bucuria Copiilor </h4>
-        </div>
-        <div class="about-content">
-          <p>
-            Fundatia Bucuria Copiilor contribuie la reducerea progresiva a numarului de persoane defavorizate din judetul Bihor, a abandonului
-            scolar si familial al copiilor pana la reintegrarea completa si stabila a acestora in societate.
-         </p>
-         <p>
-            Ne dorim sa contribuim la reducerea progresiva a numarului de persoane defavorizate din judetul Bihor, a abandonului scolar
-            si familial al copiilor pana la reintegrarea completa si stabila a acestora in societate.
-          </p>
+        <div>
+          <div class="about-title">
+            <h4> Obiectivele Fundatiei Bucuria Copiilor </h4>
+          </div>
+          <div class="about-content">
+            <p>
+              Fundatia Bucuria Copiilor contribuie la reducerea progresiva a numarului de persoane defavorizate din judetul Bihor, a abandonului
+              scolar si familial al copiilor pana la reintegrarea completa si stabila a acestora in societate.
+            </p>
+            <p>
+              Ne dorim sa contribuim la reducerea progresiva a numarului de persoane defavorizate din judetul Bihor, a abandonului scolar
+              si familial al copiilor pana la reintegrarea completa si stabila a acestora in societate.
+            </p>
 
+          </div>
         </div>
       </div>
-    </div>
-  </article>
+    </article>
 
-  <article class="about">
-    <div class="about-title">
-    </div>
-    <section>
-      <div>
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-          <!-- Indicators -->
-          <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-            <li data-target="#myCarousel" data-slide-to="3"></li>
-          </ol>
-          <!-- Wrapper for slides -->
-          <div class="carousel-inner custom-carousel" style="padding-bottom: 6%;">
-            <div class="item col-md-4">
-              <img src="/public/images/camp.jpg" style="width:100%;height: 500px;">
-              <div class="carousel-caption caption-customize">
-                <h3>Tabere cu impact</h3>
-                <p class="caption-text">
-                  Lorem Ipsum is simply dummy text of the printinummya galley of type and scrambled it to make a type specimen book, but also
-                  the leap into electronic typesetting,
-                  <br/><a href="#">Read more</a>
-                </p>
+    <article class="about">
+      <div class="about-title">
+      </div>
+      <section>
+        <div>
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+              <li data-target="#myCarousel" data-slide-to="3"></li>
+            </ol>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner custom-carousel" style="padding-bottom: 6%;">
+              <div class="item col-md-4">
+                <img src="/public/images/camp-activity.jpeg" style="width:100%;height: 600px;">
+                <div class="carousel-caption caption-customize" style="    background-image: linear-gradient(90deg, transparent 4%, rgba(0,0,0,0.10) 13%, rgba(0,0,0,0.15) 32%, rgba(0,0,0,0.10) 93%, rgba(0,0,0,0.05) 100%, transparent);
+              ">
+                  <h3>Tabere cu impact</h3>
+                  <p class="caption-text">
+                    Momentele petrecute în taberele de vară sunt unice şi vin ca o continuare a proiectului „Bucuria Copiilor”. Taberele sunt
+                    o ocazie unică de a-i face pe aceşti copii sărmani, să uite pentru un timp de sărăcia de acasă în care
+                    trăiesc, şi de a se bucura de o săptămână de neuitat. Amintirile deosebite şi marcante din viețile copiilor,
+                    prieteniile legate, dezvoltarea personală ce are loc în dreptul fiecărui copil, sunt doar câteva din
+                    rezultatele pe care ne dorim să le obținem prin toate activitățile noastre: ateliere de creație, drumeții,
+                    foc de tabără, consiliere, activități sportive, cât şi educație nonformală.
+                    <!-- <br/><a href="#">Read more</a> -->
+                  </p>
+                </div>
+              </div>
+              <div class="item  active  col-md-4">
+                <img src="/public/images/girls.jpeg" style="width:100%;height: 600px;">
+                <div class="carousel-caption caption-customize" style="background-image: linear-gradient(45deg, rgba(0,0,0,0.15), transparent);">
+                  <h3>Centrul de zi</h3>
+                  <p class="caption-text">
+                    Centrul de zi Bucuria Copiilor, doreşte să ofere copiilor orfani şi copiilor greu încercați proveniți din familii sărace
+                    şi dezorganizate, perspectiva unei vieţi normale şi bucuria unei copilării frumoase. Săptămânal îi scoatem
+                    din cenuşiul vieții lor, într-un loc amenajat special pentru copii, cu un ambient plăcut, unde le oferim
+                    o masă caldă, desfăşurând activități specifice copilăriei. Scopul nostru este să îi ajutăm să se bucure
+                    de prezent, să vadă speranţa întrun viitor mai bun şi să se pregătească pentru acesta. Activitățile centrului
+                    de zi sunt complementare celor realizate de alte servicii publice (învățământ, sănătate)
+
+                    <!-- <br/><a href="#">Read more</a> -->
+                  </p>
+                </div>
+              </div>
+              <div class="item col-md-4">
+                <img src="/public/images/boy.jpeg" style="width:100%;height: 600px;">
+                <div class="carousel-caption caption-customize" style="background-image: linear-gradient(45deg, rgba(0,0,0,0.15), transparent);">
+                  <h3>Interventii pentru subzistenta</h3>
+                  <p class="caption-text">
+                    Acest proiect vine în întâmpinarea familiilor greu încercate, persoanelor vârstnice, cât şi persoanelor care trăiesc la limita
+                    subzistenței, pentru care ne propunem să intervenim atât cu ajutor financiar cât şi material, după caz.
+                    Acestora le sunt oferite alimente, îmbrăcăminte, încălțăminte, medicamente, şi acestea pentru a putea
+                    face față situațiilor dificile, extreme cu care se confruntă
+                    <!-- <br/><a href="#">Read more</a> -->
+                  </p>
+                </div>
+              </div>
+              <div class="item col-md-4">
+                <img src="/public/images/painting.png" style="width:100%;height: 600px;">
+                <div class="carousel-caption caption-customize" style="background-image: linear-gradient(45deg, rgba(0,0,0,0.15), transparent);">
+                  <h3>Sarbatorile sunt pentru toti</h3>
+                  <p class="caption-text">
+                    Prin implementarea acestui proiect, sărbătorile de Crăciun şi de Paşte, vor fi altfel pentru oamenii sărmani. O mână întinsă
+                    şi un zâmbet oferit, pot face sărbătorile mai frumoase. De aceea căutăm oameni darnici şi cu suflet mare,
+                    care să se implice în cadrul acestui proiect, dăruind atât financiar cât şi material. Darurile oferite
+                    au scopul de a aduce bucurie şi speranță în case dărăpănate, în beciuri, în mansarde părăsite, cămine
+                    de nefamilişti, azile de bătrâni şi centre de copii
+                    <!-- <br/><a href="#">Read more</a> -->
+                  </p>
+                </div>
               </div>
             </div>
-            <div class="item  active  col-md-4">
-              <img src="/public/images/care-center.jpg" style="width:100%;height: 500px;">
-              <div class="carousel-caption caption-customize">
-                <h3>Centrul de zi</h3>
-                <p class="caption-text">
-                  Lorem Ipsum is simply dummy text of the printinummya galley of type and scrambled it to make a type specimen book, but also
-                  the leap into electronic typesetting,
-                  <br/><a href="#">Read more</a>
-                </p>
-              </div>
-            </div>
-            <div class="item col-md-4">
-              <img src="/public/images/carousel-placeholder1.png" style="width:100%;height: 500px;">
-              <div class="carousel-caption caption-customize">
-                <h3>Interventii pentru subzistenta</h3>
-                <p class="caption-text">
-                  Lorem Ipsum is simply dummy text of the printinummya galley of type and scrambled it to make a type specimen book, but also
-                  the leap into electronic typesetting,
-                  <br/><a href="#">Read more</a>
-                </p>
-              </div>
-            </div>
-            <div class="item col-md-4">
-              <img src="/public/images/carousel-placeholder1.png" style="width:100%;height: 500px;">
-              <div class="carousel-caption caption-customize">
-                <h3>Dummy</h3>
-                <p class="caption-text">
-                  Lorem Ipsum is simply dummy text of the printinummya galley of type and scrambled it to make a type specimen book, but also
-                  the leap into electronic typesetting,
-                  <br/><a href="#">Read more</a>
-                </p>
-              </div>
-            </div>
-          </div>
-          <a class="left carousel-control custom" href="#myCarousel" data-slide="prev">
+            <a class="left carousel-control custom" href="#myCarousel" data-slide="prev" style="background-image:none;">
             <span>
               <img src="/public/images/left_arrow.png" id="arr-right">
             </span>
             <span class="sr-only">Previous</span>
           </a>
-          <a class="right carousel-control custom" href="#myCarousel" data-slide="next">
+            <a class="right carousel-control custom" href="#myCarousel" data-slide="next" style="background-image:none;">
               <span>
                 <img src="/public/images/right_arrow.png" id="arr-right">
               </span>
               <span class="sr-only">Next</span>
           </a>
-        </div>
-    </section>
-  </article>
+          </div>
+      </section>
+    </article>
 
-  <article class="work">
-    <div class="container">
-      <div class="about-title">
-        <h3>DESPRE NOI</h3>
-        <div class="about-content">
-          <p>
-            Asociatia Annah este o organizatie romana neguvernamentala, non-profit, care a luat fiinta in anul 2011 la initiativa unui
-            grup de voluntari, care si-au propus sa aduca schimbare in vietile semenilor lor. Prin actiunile umanitare desfasurate
-            ne propunem sa amelioram situatiile unor categorii sociale defavorizate.
-          </p>
-          <p>
-            Ne ocupam cu integrarea sociala a copiilor ce provin din familii nevoiase, a caror situatie socio-economica precara ii expune
-            la un risc ridicat de abandon scolar si familial care va duce mai apoi la marginalizare si excluziune sociala.
-          </p>
-        </div>
-      </div>
-    </div>
-  </article>
-
-  <article class="about">
-    <div class="work-article-container">
-      <div class="work-container">
-        <div class="text-container">
-          <h3>Beneficiari</h3>
-          <p>
-            Persoane aflate in dificultate, la limita subzistentei indiferent de varsta si sex.
-          </p>
-          <button class="btn work-button">Mai mult</button>
-        </div>
-
-        <div class="work-image"></div>
-      </div>
-      <div class="work-container">
-        <div class="text-container">
-          <h3>Echipa</h3>
-          <p>
-            Lorem Ipsum is simply dummy text of the printinummya galley of type and scrambled it to make a type specimen book,
-          </p>
-          <button class="btn work-button">Mai mult</button>
-
-        </div>
-        <div class="work-image"></div>
-      </div>
-      <div class="work-container" style="margin-bottom:50px;">
-        <div class="text-container">
-          <h3>Sustinere si implicare</h3>
-          <p>
-            Lorem Ipsum is simply dummy text of the printinummya galley of type and scrambled it to make a type specimen book, but also
-            the leap into
-          </p>
-          <button class="btn work-button" onclick="location.href = '/support';">Mai mult</button>
-        </div>
-        <div class="work-image"></div>
-      </div>
-    </div>
-    </div>
-  </article>
-
-  <article class="hire">
-    <div>
-      <div class="">
+    <article class="work">
+      <div class="container">
         <div class="about-title">
-          <h3>CONTACT</h3>
+          <h3>DESPRE NOI</h3>
+          <div class="about-content">
+            <p>
+              Asociatia Annah este o organizatie romana neguvernamentala, non-profit, care a luat fiinta in anul 2011 la initiativa unui
+              grup de voluntari, care si-au propus sa aduca schimbare in vietile semenilor lor. Prin actiunile umanitare
+              desfasurate ne propunem sa amelioram situatiile unor categorii sociale defavorizate.
+            </p>
+            <p>
+              Ne ocupam cu integrarea sociala a copiilor ce provin din familii nevoiase, a caror situatie socio-economica precara ii expune
+              la un risc ridicat de abandon scolar si familial care va duce mai apoi la marginalizare si excluziune sociala.
+            </p>
+          </div>
         </div>
-        <div class="about-content">
-          <p>
-            Lorem Ipsum is simply dummy text of the printinummya galley of type and scrambled it to make a type specimen book, but also
-            the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
-            release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software
-            like Aldus PageMaker including versions of Lorem Ipsum.
-          </p>
-        </div>
-        <form action="/contact" method="post" id="contact-form">
-          <input type="text" placeholder="*  Name" name="name" required/>
-          <input type="text" placeholder="*  Email" name="email" required />
-          <textarea placeholder="Message" name="message"></textarea>
-          <button class="btn btn-block contact-submit">Trimite</button>
-        </form>
       </div>
-    </div>
-  </article>
+    </article>
 
-  <%- include footer.ejs %>  
-  <script src="/public/jquery.min.js"></script>
-  <script src="/public/bootstrap-3.3.6/dist/js/bootstrap.min.js"></script>
-  <script>
-    $(document).ready(function () {
-      $('#contact-form').on('submit', function (e) {
-        console.log("form submitted");
-        e.preventDefault();
-        e.stopPropagation();
-      });
-    });
+    <article class="about">
+      <div class="work-article-container">
+        <div class="work-container">
+          <div class="text-container">
+            <h3>Beneficiari</h3>
+            <p>
+              Persoane aflate in dificultate, la limita subzistentei indiferent de varsta si sex.
+            </p>
+            <!-- <button class="btn work-button">Mai mult</button> -->
+          </div>
 
-    // $(document).ready(function () {
-    //   $('#newsletter-form').on('submit', function (e) {
-    //     console.log("form submitted");
-    //     e.preventDefault();
-    //     e.stopPropagation();
-    //   });
-    // });
-  </script>
+          <div class="work-image">
+            <img src="/public/images/boy.jpeg" height="320px;" width="400px;" style="
+          margin-bottom: 30px;
+          display: inline-block;">
+          </div>
+        </div>
+        <div class="work-container">
+          <div class="text-container">
+            <h3>Echipa</h3>
+            <p>
+              Lorem Ipsum is simply dummy text of the printinummya galley of type and scrambled it to make a type specimen book,
+            </p>
+            <!-- <button class="btn work-button">Mai mult</button> -->
+
+          </div>
+          <div class="work-image">
+            <img src="/public/images/brothers.jpeg" height="320px;" width="400px;" style="
+            margin-bottom: 30px;
+            display: inline-block;">
+          </div>
+        </div>
+        <div class="work-container" style="margin-bottom:50px;">
+          <div class="text-container">
+            <h3>Sustinere si implicare</h3>
+            <p>
+              Lorem Ipsum is simply dummy text of the printinummya galley of type and scrambled it to make a type specimen book, but also
+              the leap into
+            </p>
+            <button class="btn work-button" onclick="location.href = '/support';">Mai mult</button>
+          </div>
+          <div class="work-image">
+            <img src="/public/images/soup.jpeg" height="320px;" width="400px;" style="
+            margin-bottom: 30px;
+            display: inline-block;">
+          </div>
+        </div>
+      </div>
+      </div>
+    </article>
+
+    <article class="hire">
+      <div>
+        <div class="">
+          <div class="about-title">
+            <h3>CONTACT</h3>
+          </div>
+          <div class="about-content" id="about-content" style="display:none; margin:0 auto; text-align:center;"> 
+            <p> 
+              Va multumim si vom reveni in cel mai scurt cu informatiile pe care ni le-ati solicitat.
+            </p>
+          </div>
+          <div id="contact-form-section">
+              <p>
+                  Dacă dorești mai multe informații, te rugăm să completezi următorul formular. Vei fi contactat cât mai curând posibil.
+                </p>
+          <form action="/contact" method="post" id="contact-from">
+            <input type="text" placeholder="*  Nume" name="name" required/>
+            <input type="text" placeholder="*  Email" name="email" required />
+            <textarea placeholder="Mesaj" name="message"></textarea>
+            <button class="btn btn-block contact-submit">Trimite</button>
+          </form>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <%- include footer.ejs %>
+      <script src="/public/jquery.min.js"></script>
+      <script src="/public/bootstrap-3.3.6/dist/js/bootstrap.min.js"></script>
+      <script>
+        $(document).ready(function () {
+          $('#contact-from').on('submit', function (e) {
+            $('#contact-form-section').hide();
+            $('#about-content').show();
+            
+            console.log("form submitted");
+            e.preventDefault();
+            e.stopPropagation();
+          });
+        });
+
+      </script>
 </body>

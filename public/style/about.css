@@ -1,3 +1,11 @@
+.about-us h4, h3 {
+    color: darkseagreen;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: 100;
+    letter-spacing: 4px;
+}
+
 article {
     width: 100%;
     background-color: ghostwhite;
@@ -24,11 +32,19 @@ article {
     vertical-align: top;
 }
 
-.video-description p{
+.video-description p {
     font-size: 20px;
-    
 }
+
 .video-container {
     display: inline-block;
     width: 30%;
+}
+
+.beneficiar-image {
+    border-right: 4px solid darkseagreen;
+    display: inline-block;
+}
+video{
+    border: 2px solid darkseagreen;
 }

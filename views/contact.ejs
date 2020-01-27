@@ -21,66 +21,74 @@
 </head>
 
 <body>
-    <div class="navbar-logo">
-        <div class="logo"></div>
-    </div>
-    <div class="header">
-        <img srcset="/public/images/Header-Image-Placeholder.jpg" width="100%">
-        <div class="header-text">
-            <h1> Implicare. Daruire. Speranta</h1>
+    <%- include navbar.ejs %>
+        <div class="header">
+            <!-- <img srcset="/public/images/Header-Image-Placeholder.jpg" width="100%"> -->
+            <!-- <div class="header-text">
+                <h1> Implicare. Daruire. Speranta</h1>
+            </div> -->
         </div>
-    </div>
 
-    <article class="hire introduction">
-        <div>
-            <div style="text-align:left">
-                <div class="about-title">
-                </div>
-                <div class="about-content">
-                    <div class="contact-information">
-                        <h3>Contact</h3>
-                        <div class="contact-item">
-                            <span><img src="/public/images/icons/map_pin.png" width="30px" height="30px"> </span>
-                            <span> Strada Lamaitei, nr. X, 410XXX, Cihei, Bihor</span>
-                        </div>
-                        <div class="contact-item">
-                            <span><img src="/public/images/icons/email.png" width="30px" height="30px"> </span>
-                            <span> contact2annah@gmail.com</span>
-                        </div>
-                        <div class="contact-item">
-                            <span><img src="/public/images/icons/phone.png" width="30px" height="30px"> </span>
-                            <span> (+4) 0748 566 483</span>
-                        </div>
-                        <div class="contact-item">
-                            <span><img src="/public/images/icons/time.png" width="30px" height="30px"> </span>
-                            <span>Intalniri saptamanale, Sambata, 09:00 - 15:00</span>
-                        </div>
-                        <div class="contact-item">
-                            <span><img src="/public/images/icons/facebook.png" width="30px" height="30px"> </span>
-                            <span>Fundatia Annah</span>
-                        </div>
+        <article class="hire introduction">
+            <div>
+                <div style="text-align:left">
+                    <div class="about-title">
                     </div>
-                    <div class="contact-information-row">
-                        <div class="row">
-                            <div class="contact-map">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2720.4419838814283!2d21.94319791583177!3d47.01192873685991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4746388ddf53720b%3A0x3a649911790f765!2zU3RyLiBMxINtw6JpyJtlaSwgQ2loZWksIFJvbWFuaWE!5e0!3m2!1sen!2suk!4v1570565303741!5m2!1sen!2suk"
-                                    width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                    <div class="about-content">
+                        <div class="contact-information">
+                            <h3>Contact</h3>
+                            <div class="contact-item">
+                                <span><img src="/public/images/icons/map_pin.png"> </span>
+                                <span> Strada Gradinarilor, nr. 73/A, <br/>Cihei, Comuna Sanmartin</span>
+                            </div>
+                            <div class="contact-item">
+                                <span><img src="/public/images/icons/email.png"> </span>
+                                <span> contact2annah@gmail.com</span>
+                            </div>
+                            <div class="contact-item">
+                                <span><img src="/public/images/icons/phone.png"> </span>
+                                <span> (+40) 748 566 483</span>
+                            </div>
+                            <div class="contact-item">
+                                <span><img src="/public/images/icons/time.png"> </span>
+                                <span>Intalniri saptamanale <br/> Sambata, 09:00 - 15:00</span>
+                            </div>
+                            <!-- <div class="contact-item">
+                            <span><img src="/public/images/icons/facebook.png"> </span>
+                            <span>Fundatia Annah</span>
+                        </div> -->
+                        </div>
+                        <div class="contact-form">
+                            <form action="/contact" method="post" id="contact-form">
+                                <input type="text" placeholder="*  Name" name="name" required/>
+                                <input type="text" placeholder="*  Email" name="email" required />
+                                <textarea placeholder="Message" name="message"></textarea>
+                                <button class="btn btn-block contact-submit">Trimite</button>
+                            </form>
+                        </div>
+
+                        <div class="contact-information-row">
+                            <div class="row">
+                                <div class="stripe"></div>
+                                <div class="contact-map">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2720.4419838814283!2d21.94319791583177!3d47.01192873685991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4746388ddf53720b%3A0x3a649911790f765!2zU3RyLiBMxINtw6JpyJtlaSwgQ2loZWksIFJvbWFuaWE!5e0!3m2!1sen!2suk!4v1570565303741!5m2!1sen!2suk"
+                                        width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <!-- <div  class="stay-in-touch">
+                        <!-- <div  class="stay-in-touch">
                         <div class="stay-in-touch-image"></div>
                         <h3>Aboneaza-te la Newsletter</h3>
                         <p>  Lorem Ipsum is simply dummy text of the printinummya galley of type and scrambled it to make a type specimen book,
                          </p>
                          <button class="btn btn-lock">OK</button>
                     </div> -->
+                    </div>
                 </div>
             </div>
-        </div>
-    </article>
-    <%- include footer.ejs %>
-        <script src="/public/jquery.min.js"></script>
-        <script src="/public/bootstrap-3.3.6/dist/js/bootstrap.min.js"></script>
+        </article>
+        <%- include footer.ejs %>
+            <script src="/public/jquery.min.js"></script>
+            <script src="/public/bootstrap-3.3.6/dist/js/bootstrap.min.js"></script>
 </body>

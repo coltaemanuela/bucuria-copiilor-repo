@@ -6,15 +6,15 @@
 }
 
 #arr-right {
-    height: 80px;
+    height: 65px;
     width: auto;
     margin: 0 auto;
-    top: 50%;
+    top: 70%;
     position: absolute;
 }
 
 .carousel-control {
-    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .1) 100%);
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .01) 100%);
 }
 
 .carousel-caption .caption-customize {
@@ -38,7 +38,7 @@
 
 #myCarousel.item {
     display: inline-block;
-    opacity: 0.9;
+    opacity: 0.1;
     vertical-align: top;
 }
 
@@ -63,4 +63,23 @@
     text-align: center;
     margin: 24px auto;
     padding-bottom: 3px;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 20px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+}
+
+.carousel-inner.custom-carousel.carousel-caption.caption-customize {
+    background-image: linear-gradient(45deg, black, transparent);
+    height: 70px;
+    width: 100%;
 }
