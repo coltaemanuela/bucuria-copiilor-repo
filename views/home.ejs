@@ -39,16 +39,15 @@
       <div>
         <div>
           <div class="about-title">
-            <h4> Obiectivele Fundatiei Bucuria Copiilor </h4>
+            <h4> Obiectivele Proiectului Bucuria Copiilor </h4>
           </div>
           <div class="about-content">
             <p>
-              Fundatia Bucuria Copiilor contribuie la reducerea progresiva a numarului de persoane defavorizate din judetul Bihor, a abandonului
-              scolar si familial al copiilor pana la reintegrarea completa si stabila a acestora in societate.
+              Proiectul școlar și familial al copiilor până la reintegrarea completă și stabilă a acestora în societate.
             </p>
             <p>
-              Ne dorim sa contribuim la reducerea progresiva a numarului de persoane defavorizate din judetul Bihor, a abandonului scolar
-              si familial al copiilor pana la reintegrarea completa si stabila a acestora in societate.
+              Ne dorim să contribuim la reducerea progresiva a numărului de persoane defavorizate din județul Bihor, a abandonului scolar
+              și familial al copiilor până la reintegrarea completa și stabila a acestora în societate.
             </p>
 
           </div>
@@ -106,7 +105,7 @@
               <div class="item col-md-4">
                 <img src="/public/images/boy.jpeg" style="width:100%;height: 600px;">
                 <div class="carousel-caption caption-customize" style="background-image: linear-gradient(45deg, rgba(0,0,0,0.15), transparent);">
-                  <h3>Interventii pentru subzistenta</h3>
+                  <h3>Intervenții pentru subzistenta</h3>
                   <p class="caption-text">
                     Acest proiect vine în întâmpinarea familiilor greu încercate, persoanelor vârstnice, cât şi persoanelor care trăiesc la limita
                     subzistenței, pentru care ne propunem să intervenim atât cu ajutor financiar cât şi material, după caz.
@@ -153,13 +152,13 @@
           <h3>DESPRE NOI</h3>
           <div class="about-content">
             <p>
-              Asociatia Annah este o organizatie romana neguvernamentala, non-profit, care a luat fiinta in anul 2011 la initiativa unui
-              grup de voluntari, care si-au propus sa aduca schimbare in vietile semenilor lor. Prin actiunile umanitare
-              desfasurate ne propunem sa amelioram situatiile unor categorii sociale defavorizate.
+              Asociația Annah este o organizație romana neguvernamentala, non-profit, care a luat ființă în anul 2011 la inițiativă unui
+              grup de voluntari, care și-au propus să aducă schimbare în viețile semenilor lor. Prin acțiunile umanitare
+              desfășurate ne propunem să amelioram situațiile unor categorii sociale defavorizate.
             </p>
             <p>
-              Ne ocupam cu integrarea sociala a copiilor ce provin din familii nevoiase, a caror situatie socio-economica precara ii expune
-              la un risc ridicat de abandon scolar si familial care va duce mai apoi la marginalizare si excluziune sociala.
+              Ne ocupam cu integrarea sociala a copiilor ce provin din familii nevoiașe, a căror situație socio-economica precara îi expune
+              la un risc ridicat de abandon scolar și familial care vă duce mai apoi la marginalizare și excluziune sociala.
             </p>
           </div>
         </div>
@@ -172,7 +171,7 @@
           <div class="text-container">
             <h3>Beneficiari</h3>
             <p>
-              Persoane aflate in dificultate, la limita subzistentei indiferent de varsta si sex.
+              Persoane aflate în dificultate, la limita subzistentei indiferent de vârstă și sex.
             </p>
             <!-- <button class="btn work-button">Mai mult</button> -->
           </div>
@@ -223,21 +222,20 @@
           <div class="about-title">
             <h3>CONTACT</h3>
           </div>
-          <div class="about-content" id="about-content" style="display:none; margin:0 auto; text-align:center;"> 
-            <p> 
-              Va multumim si vom reveni in cel mai scurt cu informatiile pe care ni le-ati solicitat.
-            </p>
+          <div class="about-content" id="about-content" style="display:none; margin:0 auto; text-align:center;">
+            <p>
+              Vă mulțumim! Vom reveni în cel mai scurt cu informațiile pe care ni le-ați solicitat. </p>
           </div>
           <div id="contact-form-section">
-              <p>
-                  Dacă dorești mai multe informații, te rugăm să completezi următorul formular. Vei fi contactat cât mai curând posibil.
-                </p>
-          <form action="/contact" method="post" id="contact-from">
-            <input type="text" placeholder="*  Nume" name="name" required/>
-            <input type="text" placeholder="*  Email" name="email" required />
-            <textarea placeholder="Mesaj" name="message"></textarea>
-            <button class="btn btn-block contact-submit">Trimite</button>
-          </form>
+            <p>
+              Dacă dorești mai multe informații, te rugăm să completezi următorul formular. Vei fi contactat cât mai curând posibil.
+            </p>
+            <form action="/contact" method="post" id="contact-from">
+              <input type="text" placeholder="*  Nume" name="name" required/>
+              <input type="text" placeholder="*  Email" name="email" required />
+              <textarea placeholder="Mesaj" name="message"></textarea>
+              <button class="btn btn-block contact-submit">Trimite</button>
+            </form>
           </div>
         </div>
       </div>
@@ -251,12 +249,11 @@
           $('#contact-from').on('submit', function (e) {
             $('#contact-form-section').hide();
             $('#about-content').show();
-            
+
             console.log("form submitted");
             e.preventDefault();
             e.stopPropagation();
           });
         });
-
       </script>
 </body>

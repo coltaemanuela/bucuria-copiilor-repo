@@ -352,6 +352,13 @@ section:nth-of-type(5) {
     background-position-x: 50%;
 }
 
+.contact-text {
+    background-image: url('../images/contact.png');
+    background-repeat: no-repeat;
+    height: 280px;
+    width: 100%;
+    background-position-x: 50%;
+}
 .support {
     width: 60%;
     margin: 0 auto;

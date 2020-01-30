@@ -31,12 +31,12 @@
 
         <article class="hire introduction">
             <div>
+                <div class="contact-text"></div>
                 <div style="text-align:left">
                     <div class="about-title">
                     </div>
                     <div class="about-content">
                         <div class="contact-information">
-                            <h3>Contact</h3>
                             <div class="contact-item">
                                 <span><img src="/public/images/icons/map_pin.png"> </span>
                                 <span> Strada Gradinarilor, nr. 73/A, <br/>Cihei, Comuna Sanmartin</span>
@@ -58,13 +58,18 @@
                             <span>Fundatia Annah</span>
                         </div> -->
                         </div>
-                        <div class="contact-form">
-                            <form action="/contact" method="post" id="contact-form">
-                                <input type="text" placeholder="*  Name" name="name" required/>
-                                <input type="text" placeholder="*  Email" name="email" required />
-                                <textarea placeholder="Message" name="message"></textarea>
-                                <button class="btn btn-block contact-submit">Trimite</button>
-                            </form>
+                        <div class="contact-form" id="contact-form-page">
+                            <p id="form-submitted" style="display:none; text-align:center;">
+                                Va multumim! Vom reveni in cel mai scurt cu informatiile pe care ni le-ati solicitat.
+                            </p>
+                            <div id="contact-form-wrapper">
+                                <form action="/contact" method="post" id="contact-form">
+                                    <input type="text" placeholder="*  Nume" name="name" required/>
+                                    <input type="text" placeholder="*  Email" name="email" required />
+                                    <textarea placeholder="Mesaj" name="message"></textarea>
+                                    <button class="btn btn-block contact-submit">Trimite</button>
+                                </form>
+                            </div>
                         </div>
 
                         <div class="contact-information-row">
@@ -91,4 +96,16 @@
         <%- include footer.ejs %>
             <script src="/public/jquery.min.js"></script>
             <script src="/public/bootstrap-3.3.6/dist/js/bootstrap.min.js"></script>
+            <script>
+                $(document).ready(function () {
+                    $('#contact-form').on('submit', function (e) {
+                        $('#contact-form-wrapper').hide();
+                        $('#form-submitted').show();
+
+                        console.log("form submitted");
+                        e.preventDefault();
+                        e.stopPropagation();
+                    });
+                });
+            </script>
 </body>
